@@ -6,7 +6,7 @@ COPY . /app
 
 RUN pip install --no-cache-dir -r requirements.txt
 
-ENV PORT=6969
+ENV PORT=5000
 
 EXPOSE $PORT
 
